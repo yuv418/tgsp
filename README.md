@@ -13,9 +13,9 @@ Have a working apache2 server and mariadb installation.
 
 In MariaDB, create a user with name 'default_u' and set a password.
 <code>mysql -u root -h localhost -p</code>
-and enter your password. Change localhost to whatever the host name of the DB is. 
+and enter your password. Change localhost to whatever the host name of the DB is. <br>
 <code>CREATE USER 'default_u'@'localhost' IDENTIFIED BY 'your password here';</code><br>
-Change the php code to reflect your password. 
+Change the php code to reflect your password. <br>
 <code>GRANT ALL ON tgsp_catalog.* TO 'default_u'@'localhost';</code><br>
 <code>GRANT ALL ON tgsp_users.* TO 'default_u'@'localhost';</code><br>
 
