@@ -13,11 +13,11 @@ Have a working apache2 server and mariadb installation.
 
 In MariaDB, create a user with name 'default_u' and set a password.
 <code>mysql -u root -h localhost -p</code>
-And enter your password. Change localhost to whatever the host name of the DB is. 
-<code>CREATE USER 'default_u'@'localhost' IDENTIFIED BY 'your password here';</code>
+and enter your password. Change localhost to whatever the host name of the DB is. 
+<code>CREATE USER 'default_u'@'localhost' IDENTIFIED BY 'your password here';</code><br>
 Change the php code to reflect your password. 
-<code>GRANT ALL ON tgsp_catalog.* TO 'default_u'@'localhost';</code>
-<code>GRANT ALL ON tgsp_users.* TO 'default_u'@'localhost';</code>
+<code>GRANT ALL ON tgsp_catalog.* TO 'default_u'@'localhost';</code><br>
+<code>GRANT ALL ON tgsp_users.* TO 'default_u'@'localhost';</code><br>
 
 Copy code to folder 'tgsp' in htdocs. 
 
