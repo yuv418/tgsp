@@ -11,7 +11,7 @@ First, clone this project.
 <code>git clone https://github.com/cdknight/tgsp.git </code>
 Have a working apache2 server and mariadb installation.
 
-In MariaDB, create a user with name 'default_u' and set a password.
+In MariaDB, create a user with name 'default_u' and set a password. In a terminal, enter 
 <code>mysql -u root -h localhost -p</code>
 and enter your password. Change localhost to whatever the host name of the DB is. <br>
 <code>CREATE USER 'default_u'@'localhost' IDENTIFIED BY 'your password here';</code><br>
