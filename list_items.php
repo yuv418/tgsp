@@ -34,7 +34,7 @@ if(isset($_SESSION['msg']) and $_SESSION['additem_prev'] == true){
 }
 $servername = "localhost";
 $username = "default_u";
-$password = "letmeinmysql";
+$password = "password";
 //check if previous page was additem.php
     $_SESSION['additem_prev'] = false;
     $conn = new mysqli($servername, $username, $password, "tgsp_users");
