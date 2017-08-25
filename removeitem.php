@@ -24,7 +24,7 @@ table, th, td{
 <?php
 
 if($_SESSION['userloggedin']){
-    $conn = new mysqli("localhost", "default_u", "letmeinmysql", "tgsp_catalog");
+    $conn = new mysqli("localhost", "default_u", "password", "tgsp_catalog");
 }
 else{
     $_SESSION['msg'] = "You need to log in.";
